@@ -12,8 +12,8 @@ class EmailAddressParser
   end
   
   def parse
-    csv_split = @email_addresses.split(', ') 
-    space_delimited = @email_addresses.split(' ')
+    @email_addresses.split(', ') 
+    @email_addresses.uniq
   end
 
 end
