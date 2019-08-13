@@ -12,7 +12,7 @@ class EmailAddressParser
   end
   
   def parse
-    split = email_addresses.split(', ') || email_addresses.split(' ')
+    email_addresses.split(', ') || email_addresses.split(' ')
   end
 
 end
