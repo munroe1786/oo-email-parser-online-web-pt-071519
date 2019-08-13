@@ -7,7 +7,7 @@ class EmailParser
   attr_accessor :emails
   
   def parse (emails)
-    
+    csv_split = emails.split(',')
   end
 
 end
