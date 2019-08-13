@@ -13,9 +13,7 @@ class EmailAddressParser
   
   def parse
     csv_split = email_addresses.split(', ')
-    csv_split
     space_delimited = email_addresses.split(' ')
-    space_delimited
   end
 
 end
