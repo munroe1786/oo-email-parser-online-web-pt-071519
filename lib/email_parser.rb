@@ -12,7 +12,7 @@ class EmailAddressParser
   end
   
   def parse
-    @email_addresses.split(', ') 
+    @emails = @emails.gsubsplit(', ') 
     @emails.uniq
   end
 
