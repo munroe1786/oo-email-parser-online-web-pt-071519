@@ -9,7 +9,7 @@ class EmailAddressParser
   
   def parse
     csv_split = emails.split(' , ')
-    #binding pry
+    binding.pry
   end
 
 end
